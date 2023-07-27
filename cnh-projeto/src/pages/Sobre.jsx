@@ -1,30 +1,32 @@
 import Header from '../components/Header'
-import sobre from '../assets/homes.svg'
+import mapa from '../assets/mapa.svg'
 import styles from '../styles/pages/sobre.module.css'
-import amanda from '../assets/amanda.jpg'
+
 
 
 const Sobre = () => {
   return (
     <>
-      <Header title="Trajetória" image={sobre} />
-
+      <Header title="O que eu preciso para tirar a minha CNH?" />
       <div className={styles.sobreContainer}>
-        <img className={styles.photoProfile} src={amanda} />
-        <h1> E aí, bora abalar no mundo dev?!</h1>
-        <p>
-          Olá linkedinho! Estou dando os meus primeiros passos na carreira no mundo do TI. 💻
+      <img className={styles.mapBrasil} src={mapa}/>
+      <button className={styles.EstRn}>RN</button>
+      <button>CE</button>
+      <button>PE</button>
+      <button>PB</button>
+      <button>MG</button>
+      <button>RO</button>
+      <button>AC</button>
+      <button>PA</button>
+      <button>MA</button>
+      <button>DF</button>
+      <button>GO</button>
+      <button>AM</button>
+      <button>RS</button>
+      <button>BA</button>
 
-          Efetivamente, já estive em cargos relacionado a suporte técnico em nível pleno, pois ocupei o cargo
-          supervisora de uma equipe, a qual parte as demandas do setor de desenvolvimento relacionadas a bugs,
-          testes, sugestões e novas funcionalidades estavam ligadas completamente o meu trabalho.
-          Em meu último cargo como assistente de suporte, fui responsável por realizar suporte interno para os colegas de trabalho (independente de experiência/senioridade) e também para os clientes da plataforma, entre esses, key accounts.
-
-          Resolutiva, ágil e comunicativa (falante)! 😅
-
-          Tenho me encontrado no mundo das desenvolvedoras front-end e atualmente estou cursando bacharelado em Ciências e Tecnologia na UFRN. 🎓
-    </p>
       </div>
+
     </>
 
   )

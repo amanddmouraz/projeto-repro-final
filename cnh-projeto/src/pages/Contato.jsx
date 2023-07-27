@@ -1,6 +1,6 @@
 import Header from '../components/Header'
-
-import contato from '../assets/contact.svg'
+ 
+import logo from '../assets/gifPath.gif'
 
 import styles from '../styles/pages/contato.module.css'
 
@@ -45,7 +45,16 @@ const Contato = () => {
 
   return (
     <>
-      <Header title="Fala que eu te escuto 📣" image={contato} />
+      <Header title="Precisando de algo? Fala Aqui! 📣"/>
+      <div className={styles.contactImg}>
+      <img src={logo} alt="loading..." />
+      <p className={styles.contactDescription}> 
+      <ul>Sugestões,</ul>
+      <ul>Dúvidas sobre a documentação,</ul>
+      <ul>Melhorias,</ul>
+      <ul>Ou o que você precisar!</ul>
+      </p>
+      </div>
 
       <main>
         <form className={styles.form} onSubmit={handleSubmit}>

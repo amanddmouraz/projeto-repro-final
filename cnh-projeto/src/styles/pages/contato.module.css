@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background: radial-gradient(rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
 
@@ -24,4 +24,17 @@
     background-color: #4CAF50 ;
     border: none;
     color: #fff;
+}
+
+.contactImg{
+    background: radial-gradient(rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: ;
+}
+
+.contactDescription{
+    color:#ffffff;
+    font-size: 1.3rem;
 }

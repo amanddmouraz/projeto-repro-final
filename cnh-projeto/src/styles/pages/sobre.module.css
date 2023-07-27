@@ -12,29 +12,26 @@
     gap: 4rem;
     padding: 10rem;
     font-size: 1.5rem;
+    background: radial-gradient(rgb(60, 70, 90) 24.5%, rgb(19, 30, 37) 66%);
   }
-  
-  .photoProfile {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    border-radius: 100%;
+  .mapBrasil {
+    width: 50%;
+    height: auto;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
   }
-  
-  .textContainer {
+
+.EstRn{
+  display:flex;
+
+}
+
+.subtitleSobre{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    padding-bottom: 1rem;
-  }
-  
-  p {
-    font-size: 16px;
-    padding-top: 1rem;
-  }
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem;
+}

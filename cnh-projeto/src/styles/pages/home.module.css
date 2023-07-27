@@ -2,24 +2,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 6rem;
     padding:10rem;
+    background:radial-gradient( rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
 
 .cardConteiner{
     text-align: center;
+    background-color: none;
+    background:radial-gradient( rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    background-color: #ffffff;
 
 }
 
-.cardTilte{
+.cardTitle{
+    color: #ffffff;
     font-size: 1rem;
     padding: 2rem;
-    color: #474a51;
     text-align: center;
 }
 
-.cardDescription{
+.cardDescription {
     font-size: 1.3rem;
-    color:#474a51;
+    background: radial-gradient(rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    color: #ffffff;
+    word-wrap: break-word;
 }
