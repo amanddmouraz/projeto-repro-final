@@ -22,7 +22,7 @@ const objetoJson = [
         "estado": "PA - Paraíba",
         "detran": "https://cnhpd.detran.pa.gov.br/",
         "obrigatorio": ["CadÚnico Ativo", "Fundamental Completo"],
-        "modalidades": ["CNH Metropolitana", "CNH Interior", "CNH Especial"]
+        "modalidades": ["CNH Metropolitana", "CNH Interior", "CNH Especial"],
         "documentos": ["Documento de identificação com foto","CPF","Comprovante de endereço", "Certidão Negativa de Antecedentes Criminais emitida pela Polícia Civil do Pará."],
         "observacoes": "No PA a documentação sofre alterações conforme a modalidade da ca"
       },

@@ -1,7 +1,7 @@
 import Header from '../components/Header'
 import mapa from '../assets/mapa.svg'
 import styles from '../styles/pages/sobre.module.css'
-
+import Modal from '../components/Modal'
 
 
 const Sobre = () => {
