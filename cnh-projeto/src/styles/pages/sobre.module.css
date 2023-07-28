@@ -40,3 +40,11 @@
   background-color: #FF7C00;
   color: #ffffff;
 }
+
+.subtitleConteiner{
+  display: flex;
+  background: rgb(19, 30, 37);
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}

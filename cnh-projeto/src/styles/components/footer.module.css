@@ -15,3 +15,8 @@
         1px 0px 1px #000000,
         1px 0px 1px #000000;
 }
+
+.logos{
+    display: flex;
+    gap: 20px;
+}
