@@ -1,0 +1,37 @@
+/* Estilos do Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.modal-close {
+  position: absolute;
+  top: 5%;
+  right: 1%;
+  font-size: 16px;
+  cursor: pointer;
+  width: 20px;
+  border-radius: 8px;
+  color: red;
+}
+
+.modal-content {
+  padding: 10px;
+}

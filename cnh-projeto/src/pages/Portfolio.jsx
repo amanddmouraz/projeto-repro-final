@@ -1,16 +1,13 @@
-import Header from "../components/Header";
+import Header from '../components/Header'
 
-import styles from "../styles/pages/portfolio.module.css";
+import styles from '../styles/pages/portfolio.module.css'
 
 const Portfolio = () => {
-  <>
-  return (  
-<Header title="EI, MULHER! DIRIJA" />
+  ;<>
+    return (
+    <Header title="EI, MULHER! DIRIJA" />
+    )
+  </>
+}
 
-)
-   
-    
-</> 
-};
-
-export default Portfolio;
+export default Portfolio
