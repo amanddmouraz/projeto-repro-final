@@ -1,22 +1,22 @@
-.homeConteiner{
+.homeConteiner {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6rem;
-    padding:10rem;
-    background:radial-gradient( rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    padding: 10rem;
+    background: radial-gradient(rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
 
-.cardConteiner{
+.cardConteiner {
     text-align: center;
     background-color: none;
-    background:radial-gradient( rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    background: radial-gradient(rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
     background-color: #ffffff;
 
 }
 
-.cardTitle{
+.cardTitle {
     color: #ffffff;
     font-size: 1rem;
     padding: 2rem;

@@ -1,5 +1,5 @@
-.headerContainer{
-    background-color:#ffffff ;
+.headerContainer {
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 
-.headerTitle{
+.headerTitle {
     color: #fff;
     font-size: 4rem;
     text-shadow:
@@ -19,10 +19,10 @@
         0px 0px 0px #000000;
 }
 
-.headerImage{
+.headerImage {
     width: 40%;
 }
 
-.headerContainer{
-background:radial-gradient( rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+.headerContainer {
+    background: radial-gradient(rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }

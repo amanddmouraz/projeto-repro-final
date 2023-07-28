@@ -1,55 +1,55 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    font-family: 'Oswald', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
-.conteinerLogo{
-    display: flex;
-    position: relative;
+.conteinerLogo {
+  display: flex;
+  position: relative;
 }
 
-.logoProjeto{
-    display: flex;
-    position: absolute;
-    width: 15%;
-    border-radius: 160px;
-    top: 0%;
-    right: 1%;
-    background-color: rgb(19, 30, 37);
+.logoProjeto {
+  display: flex;
+  position: absolute;
+  width: 15%;
+  border-radius: 160px;
+  top: 0%;
+  right: 1%;
+  background-color: rgb(19, 30, 37);
 }
 
-  .subtitleDirija {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background:radial-gradient( rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
-    color: #ffffff;
-  }
+.subtitleDirija {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+  color: #ffffff;
+}
 
-  .conteinerDirija{
-    display: flex;
-    justify-content: center;
-    gap: 8rem;
-    padding:10rem;
-    background-color: rgb(19, 30, 37);
-  }
+.conteinerDirija {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  padding: 10rem;
+  background-color: rgb(19, 30, 37);
+}
 
-.cardConteiner{
+.cardConteiner {
   display: grid;
   width: 50%x;
   height: 250px;
-  background:#FF7C00;
-  justify-content:center;
+  background: #FF7C00;
+  justify-content: center;
   align-items: center;
   text-align: center;
   word-wrap: break-word;
   border-radius: 40px;
 }
 
-.cardDescription{
+.cardDescription {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -57,40 +57,41 @@
 }
 
 a {
-    text-decoration: none;
-    color:#FF7C00;
+  text-decoration: none;
+  color: #FF7C00;
 
 }
-a:hover{
-    color:#71c1f2;
+
+a:hover {
+  color: #71c1f2;
 }
 
-.conteinerPropostas{
+.conteinerPropostas {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 9rem;
-  padding:10rem;
-  background-color:rgb(19, 30, 37);
+  padding: 10rem;
+  background-color: rgb(19, 30, 37);
 }
 
-.cardConteinerProp{
+.cardConteinerProp {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
- 
+
 }
 
-.tituloConteinerProp{
+.tituloConteinerProp {
   justify-content: center;
   text-align: center;
   align-items: center;
   padding: 10px;
 }
 
-.buttonProp{
+.buttonProp {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -101,4 +102,3 @@ a:hover{
   background-color: #FF7C00;
   color: #ffffff;
 }
-

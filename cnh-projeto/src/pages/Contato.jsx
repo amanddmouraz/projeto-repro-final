@@ -1,5 +1,5 @@
 import Header from '../components/Header'
- 
+
 import logo from '../assets/gifPath.gif'
 
 import styles from '../styles/pages/contato.module.css'
@@ -33,27 +33,27 @@ const Contato = () => {
     const messageListRef = ref(database, 'mensagens')
     const newMessageRef = push(messageListRef)
     set(newMessageRef, {
-      nome:nome,
-      email:email,
-      texto:mensagem
+      nome: nome,
+      email: email,
+      texto: mensagem
     })
 
-  setNome('')
-  setEmail('')
-  setMensagem('')
+    setNome('')
+    setEmail('')
+    setMensagem('')
   }
 
   return (
     <>
-      <Header title="Precisando de algo? Fala Aqui! 📣"/>
+      <Header title="Precisando de algo? Fala Aqui! 📣" />
       <div className={styles.contactImg}>
-      <img src={logo} alt="loading..." />
-      <p className={styles.contactDescription}> 
-      <ul>Sugestões,</ul>
-      <ul>Dúvidas sobre a documentação,</ul>
-      <ul>Melhorias,</ul>
-      <ul>Ou o que você precisar!</ul>
-      </p>
+        <img src={logo} alt="loading..." />
+        <p className={styles.contactDescription}>
+          <ul>Sugestões,</ul>
+          <ul>Dúvidas sobre a documentação,</ul>
+          <ul>Melhorias,</ul>
+          <ul>Ou o que você precisar!</ul>
+        </p>
       </div>
 
       <main>

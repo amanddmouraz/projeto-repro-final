@@ -1,12 +1,12 @@
-.footerConteiner{
-    background:radial-gradient( rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+.footerConteiner {
+    background: radial-gradient(rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
     padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footerContent{
+.footerContent {
     color: #fff;
     font-size: 1rem;
     text-shadow:
@@ -16,7 +16,7 @@
         1px 0px 1px #000000;
 }
 
-.logos{
+.logos {
     display: flex;
     gap: 20px;
 }
