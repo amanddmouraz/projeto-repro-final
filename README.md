@@ -62,8 +62,10 @@ Siga o passo a passo a seguir:
 - Conseguir criar o modal ao Click dos Estados
 - Ajustar itens do modal
 
-#Pendências
+# Pendências
 - Fechar o modal de informações ao clicar fora do mesmo
+- Responsividade de todas as páginas
+
 
 
   
