@@ -6,9 +6,9 @@ import styles from '../styles/pages/contato.module.css'
 
 import { useState } from 'react'
 
-// import database from '../service/firebase'
+import database from '../services/firebase'
 
-// import { ref, push, set } from 'firebase/database'
+import { ref, push, set } from 'firebase/database'
 
 const Contato = () => {
   const [nome, setNome] = useState('')

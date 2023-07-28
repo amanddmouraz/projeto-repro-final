@@ -4,14 +4,13 @@ import styles from '../styles/pages/portfolio.module.css'
 
 import logoprojeto from '../assets/logoprojeto.svg'
 
-import {ArticleMedium} from 'phosphor-react'
+import { Brain } from 'phosphor-react'
 
-import {Balon} from 'phosphor-react'
+import { UsersThree } from 'phosphor-react'
 
-import {UsersFour} from 'phosphor-react'
+import { CarSimple } from 'phosphor-react'
 
-
-
+import { ArticleMedium } from 'phosphor-react'
 
 
 const Portfolio = () => {
@@ -21,9 +20,11 @@ const Portfolio = () => {
     <img src={logoprojeto} alt="mulher-dirigindo" className={styles.logoProjeto} />
     </div>
     <Header title="LUGAR DE MULHER, TAMBÉM É NA ESTRADA!" />
-    <h2 className={styles.subtitleDirija}> No Brasil, as mulheres correspondem a 35% total das CNH válidas (DNIT)</h2>
-   
-      <div className={styles.conteinerDirija}> 
+    <h2 className={styles.subtitleDirija}> 80% da mulheres tem medo de dirigir <a href="https://revistacapitaleconomico.com.br/medo-de-dirigir-acomete-90-das-mulheres-diz-pesquisa/"> (ABRAMET)</a> </h2> 
+    <h2 className={styles.subtitleDirija}> E somente 35% das CNH válidas pertencem a mulheres <a href="https://www.gov.br/dnit/pt-br/assuntos/noticias/no-mes-dedicado-as-mulheres-dnit-revela-estudos-com-numero-de-habilitadas-no-pais">(DNIT) </a> </h2>
+    <h2 className={styles.subtitleDirija}> </h2>
+
+      <section className={styles.conteinerDirija}> 
 
       <div className={styles.cardConteiner}>
       <p className={styles.cardDescription}>
@@ -48,19 +49,42 @@ const Portfolio = () => {
       <div className={styles.cardConteiner}>
     <p className={styles.cardDescription}>
       O Ei, mulher!Dirija! surgiu não só para trazer dados sobre como as mulheres são exemplos no trânsito, mas como também uma iniciativa de apoio psicológico para todas
-      as mulheres que desejam dirigir, mas ainda sim, sofrem com esse medo e também com o desânimo devido essas circunstâncias. Seguem algumas opções que podem te ajudar:
+      as mulheres que desejam dirigir, mas ainda sim, sofrem com esse medo e também com o desânimo devido essas circunstâncias. 
+      
     </p>
     </div>
+    </section>
 
-      <div className={styles}>
-
-
-
-
+    <div>
+        <h1 className={styles.subtitleDirija}> Iniciativas, projetos, conhecimento e apoio "Ei,mulher! Dirija!": </h1>
       </div>
-    </div>
 
-  
+   <section className={styles.conteinerPropostas}>
+    <div className={styles.cardConteinerProp}>
+   <Brain  size={150} color= "#FF7C00" weight="thin"/>
+   <h3 className={styles.tituloConteinerProp}> Psicólogos Especializados </h3>
+   <a href='http://www.andebem.com.br/noticias/135/medo-de-dirigir'> <button className={styles.buttonProp}> Contatos | Clinicas </button> </a>
+   </div>
+
+    <div className={styles.cardConteinerProp}>
+   <CarSimple  size={150} color= "#FF7C00" weight="thin"/>
+   <h3 className={styles.tituloConteinerProp}> Programa Vencendo o Medo de Dirigir | MS </h3>
+   <a href='https://www.detran.ms.gov.br/educacao-2/acoes-educativas/acoes-educativas-10/'> <button className={styles.buttonProp}> Site DIEDU </button> </a>
+   </div>
+
+   <div className={styles.cardConteinerProp}>
+   <ArticleMedium  size={150} color= "#FF7C00" weight="thin"/>
+   <h3 className={styles.tituloConteinerProp}> Artigo | Mulheres com medo de dirigir: Um olhar além das aparências. PT </h3>
+   <a href='https://periodicos.unoesc.edu.br/siepe/article/view/5685'><button className={styles.buttonProp} > Artigo </button></a>
+   </div>
+
+   <div className={styles.cardConteinerProp}>
+   <UsersThree size={150} color= "#FF7C00" weight="thin" className={styles.logoPhosphor}/>
+   <h3 className={styles.tituloConteinerProp}> Rede de conexão do "Ei, mulher! Dirija!" </h3>
+    <a href='http://www.andebem.com.br/noticias/135/medo-de-dirigir'> <button className={styles.buttonProp}> Fórum </button> </a>
+   </div>
+
+   </section>
     </>
     )
  

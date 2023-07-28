@@ -22,7 +22,7 @@ const Sobre = () => {
     <>
       <Header title="O que eu preciso para tirar a minha CNH?" />
       <div className={styles.subtitleConteiner}>
-        <h2> Clique no seu estado e confira as informações nessárias ⬇ </h2>
+        <h2> Clique no botão com a sigla do seu estado e confira as informações necessárias: </h2>
         </div>
       <div className={styles.sobreContainer}>
         <img className={styles.mapBrasil} src={mapa} alt="Mapa do Brasil" />

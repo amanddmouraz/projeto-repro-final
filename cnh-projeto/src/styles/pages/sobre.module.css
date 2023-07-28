@@ -48,3 +48,6 @@
   align-items: center;
   color: #ffffff;
 }
+button:hover{
+  color: #71c1f2;
+}
