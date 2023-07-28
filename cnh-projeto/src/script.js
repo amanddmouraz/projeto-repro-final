@@ -42,7 +42,7 @@ export const objetoJson = [
     { 
         "id": 5,
         "sigla": "RO",
-        "estado": "RO - Roraima",
+        "estado": "RO - Rondônia",
         "detran": "https://cnhpd.detran.pa.gov.br/",
         "obrigatorio": ["CadÚnico Ativo", "Fundamental Completo"],
         "modalidades": ["CNH Metropolitana", "CNH Interior", "CNH Especial"],
