@@ -74,3 +74,13 @@ Oi, eu sou a Amanda!
 Atualmente trabalho como Analista de CX, e estou dando meus primeiros passos na tentativa de migrar para a área de TI como desenvolvedora. 
 
 # Me encontre nesses lugares
+<div> 
+  <a href="https://www.instagram.com/falidaelinda/" target="_blank">
+  <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
+  </a>
+
+  <a href = "mailto:amanlsmoura@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+  </a>
+
+  <a href="https://www.linkedin.com/in/amanda-moura-dev/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  </a> 
