@@ -67,6 +67,8 @@ Siga o passo a passo a seguir:
 # Pendências
 - Fechar o modal de informações ao clicar fora do mesmo
 - Responsividade de todas as páginas
+- Criar fórum para dúvidas sobre a CNH
+- Criar fórum do "Ei, mulher! Dirija"
 
 
 
