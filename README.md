@@ -1,4 +1,4 @@
-<img src="projeto-repo-final/cnh-projeto/src/assets/logo.svg">
+![image](https://github.com/amanddmouraz/projeto-repro-final/assets/96799992/fa7b8f2c-a016-4777-9aff-1664e90c6e8c)
 
 # Projeto CNH Sem Barreiras
 
@@ -11,6 +11,8 @@ Esse projeto surgiu numa conversa com as amigas do curso, as quais todas possuí
 # Sobre o Projeto
 
 O objetivo central do projeto é ajudar que todas as pessoas que fazem parte do programa social Cadastro Único possam ter acesso a  Carteira Nacional de Habilitação Social, pois a mesma possibilita oportunidades de empregabilidade e independência.
+
+Link para o projeto no ar: https://cnhsembarreiras.netlify.app/
 
 # Tecnologias usadas no projeto
 
