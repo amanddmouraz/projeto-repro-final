@@ -69,7 +69,7 @@ Siga o passo a passo a seguir:
 - Responsividade de todas as páginas
 - Criar fórum para dúvidas sobre a CNH
 - Criar fórum do "Ei, mulher! Dirija"
-
+- Ajustar as informações do JSON com os dados de cada Estado
 
 
   
