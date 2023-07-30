@@ -3,7 +3,7 @@
 # Projeto CNH Sem Barreiras
 
 Oi! A sua CNH chegou!
-Bem vindo ao CNH sem barreiras, o meu projeto final de Front-End como aluna da reprograma e o mesmo tem o intuito de ajudar pessoas baixa renda com informações de como tirar a  Carteira Nacional de Habilitação: quais os estados, os documentos necessários e afins. Também criado em conjunto, o "Ei, mulher! Dirija!" como parte do CNH sem barreiras, para ajudar mulheres que possuem medo de dirigir, o qual está totalmente ligado ao contexto histórico cultural do Brasil muito preconceituoso para/com mulheres.
+Bem vindo ao CNH sem barreiras, o meu projeto final de Front-End como aluna da reprograma e o mesmo tem o intuito de ajudar pessoas baixa renda com informações de como tirar a  Carteira Nacional de Habilitação: quais os estados, os documentos necessários e afins. Também criado em conjunto, o "Ei, mulher! Dirija!" como parte do CNH sem barreiras (um projeto fictício), para ajudar mulheres que possuem medo de dirigir, o qual está totalmente ligado ao contexto histórico cultural do Brasil muito preconceituoso para/com mulheres.
 
 Esse projeto surgiu numa conversa com as amigas do curso, as quais todas possuíam CNH, menos eu. Não só pela questão de renda, mas todas as vezes que um dia pensei em dirigir ou alguém se disponibilizou foram experiências traumaticas e me levaram a compreender que eu não sou capaz de dirigir, realmente possuo um medo absurdo (só sei andar de bicicleta).
 
