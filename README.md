@@ -23,7 +23,7 @@ O CNH Sem Barreiras foi desenvolvido com as seguintes tecnologias:
 - [x] **NPM** Gerenciador de pacotes utilizado no projeto;
 - [x] **Firebase** É utilizado para enviar os dados de contato, dúvidas e afins;
 - [x] **React router dom** Dependência usada para criar rotas no Reactjs;
-- [x] **React-Icons** Dependência usada para colocar icones do projeto
+- [x] **Context React**  Utilizado para o modal de Estados, fornecendo as informações obtidas pelo JSON;
 - [x] **Netlify**  É utilizado para Hospedagem para a aplicação, fiz o deploy integrado com o github.
 
  
