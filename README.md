@@ -1,4 +1,4 @@
-![image](https://github.com/amanddmouraz/projeto-repro-final/assets/96799992/fa7b8f2c-a016-4777-9aff-1664e90c6e8c)
+![Yellow Crepes Food Logo - Logos](https://github.com/amanddmouraz/projeto-repro-final/assets/96799992/8161100a-946e-4c6e-9ff9-ca66d3f23f42)
 
 # Projeto CNH Sem Barreiras
 
